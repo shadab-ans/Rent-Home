@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- GoogleFont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <title>Nest Away</title>
+    <!-- Icon Link -->
+    <link rel="shortcut icon" href="./img/icon.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="navbar" id="home">
+            <a class="navbar-brand" href="#"
+              ><img src="./img/logo.svg" alt="" srcset=""
+            /></a>
+            <div class="nav-content">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown d-flex">
+                  <img src="./img/blink.svg" alt="" srcset="" />
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Bangalore
+                  </a>
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Select Gender
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="row">
+                      <div class="col-5 mx-auto">
+                        <h5>I'm looking to rent a home in</h5>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Bangalore
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Gurgaon
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Hyderabad
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Noida
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Pune
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Delhi
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Ghaziabad
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Greter Noida
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Faridabad
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Navi Mumbai
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Thane
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Mumbai
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Chennai
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Mysore
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Kota
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Dehradun
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Bhubaneswar
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Kolkata
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Visakapatnam
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Coimbatore
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Chandigarh
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Indore
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Kochi
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Ahemdabad
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Agra
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Jaipur
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Mangalore
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Vijaywada
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Bhopal
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Lucknow
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Patna
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Ludhiana
+                        </button>
+                      </div>
+                      <div class="col-5">
+                        <h5>For</h5>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Boys
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Girls
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Family
+                        </button>
+                        <button type="button" class="btn btn-info">Any</button>
+                      </div>
+                      <div class="update">
+                        <button type="button" class="btn btn-dark">
+                          Update
+                        </button>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <div class="space">
+              <h1>hyyyyyyyyy</h1>
+            </div>
+
+            <div class="nav-right">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown d-flex">
+                  <a href="#home"> Scheduled Visits </a>
+                  <a href="#home"> Buy a home </a>
+                </li>
+              </ul>
+            </div>
+            <div class="pro">
+              <button type="button" class="btn-warning own">
+                List your Property
+              </button>
+
+              <div id="mySidenav" class="sidenav">
+                <div class="container">
+                  <a
+                    href="javascript:void(0)"
+                    class="closebtn"
+                    onclick="closeNav()"
+                    >&times;</a
+                  >
+                  <a href="#">Explore</a>
+                  <hr />
+                  <a href="#">About</a>
+                  <a href="#">Work with us</a>
+                  <a href="#">Refer & earn</a>
+                  <a href="#">Blog</a>
+                  <hr />
+                  <a href="#">Tenancy policies</a>
+                  <a href="#">Nestaway terms</a>
+                  <a href="#">Privacy policy</a>
+                  <a href="#">FAQ</a>
+                  <hr />
+                  <a href="#">For house owners</a>
+                  <a href="#">For corporates</a>
+                </div>
+
+                <div class="sideBarFooterLink">
+                  <div class="Button NormalButton">CREATE ACCOUNT</div>
+                  <div class="Button PrimeButton">LOGIN</div>
+                </div>
+              </div>
+
+              <!-- Use any element to open the sidenav -->
+              <span onclick="openNav()">
+                <i class="fas fa-bars"></i>
+                Menu</span
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Article Section -->
+    <div class="container article mt-5">
+      <div class="row mt-5">
+        <div class="col-md-6 mt-5">
+          <h1>Safest way to rent a home</h1>
+          <div class="para d-flex mx-auto">
+            <img
+              src="./img/tick.png"
+              alt=""
+              srcset=""
+              width="12px"
+              height="10px"
+            />
+            <p>Sanitized Homes</p>
+            <img
+              src="./img/tick.png"
+              alt=""
+              srcset=""
+              width="12px"
+              height="10px"
+            />
+            <p>Vaccinated Staff</p>
+            <img
+              src="./img/tick.png"
+              alt=""
+              srcset=""
+              width="12px"
+              height="10px"
+            />
+            <p>Contactless Visits</p>
+          </div>
+        </div>
+        <div class="col-md-6 mt-5">
+          <img src="./img/main-img.png" alt="" srcset="" />
+        </div>
+      </div>
+
+      <div class="form-floating mb-3 mt-5 d-flex">
+        <input
+          type="email"
+          class="form-control"
+          id="floatingInput"
+          placeholder="name@example.com"
+        />
+        <label for="floatingInput">Enter location</label>
+        <button class="btn-dark search-btn">
+          <i class="fas fa-search"></i>Search
+        </button>
+      </div>
+
+      <div class="property">
+        <button class="btn-warning own">
+          <img src="./img/owner.png" alt="" srcset="" width="35px" />Do you own
+          a property? <a href="#home">List is here</a>
+          <i class="fas fa-angle-right"></i>
+        </button>
+        <button class="choice">
+          <img src="./img/loc.png" alt="" srcset="" width="35px" />Buy homes at
+          great prices <a href="#home">Send me Choices</a>
+          <i class="fas fa-angle-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Home Banner -->
+    <div class="container-fluid banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Safe Online & Offline</h2>
+            <h2>House Tours!</h2>
+          </div>
+          <div class="col-md-7">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card" style="width: 300px">
+                  <div class="card-body">
+                    <p class="card-text">Online Video tours</p>
+                    <div class="row">
+                      <div class="col-md-8 white">
+                        <p class="card-text">
+                          Save time, easy, & Can view every detail!
+                        </p>
+                        <a href="#" class="card-link">Know more</a>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="./img/online.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 300px">
+                  <div class="card-body">
+                    <p class="card-text">
+                      Offline tours with Vaccinated professionals (PAN India)
+                    </p>
+                    <div class="row">
+                      <div class="col-md-8">
+                        <p class="card-text">
+                          <span>85%</span> of our staff is vaccinated!
+                        </p>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="./img/vaccine.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Design Section -->
+    <section>
+      <div class="container-fluid design">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h1>Designed for everyone</h1>
+            </div>
+            <div class="col-md-9">
+              <div class="row">
+                <div class="col-md-4 dec">
+                  <img src="./img/d1.png" alt="" width="132" height="78" />
+                  <h4>Homes for Families</h4>
+                  <p>
+                    Rent a beautiful house for your family. Choose from flats in
+                    societies, individual apartments, bungalows & villas
+                  </p>
+                  <button class="btn btn-outline-dark">
+                    EXPLORE 2408 HOUSES
+                  </button>
+                  <p>₹3500 - ₹70000</p>
+                </div>
+                <div class="col-md-4 dec">
+                  <img src="./img/d2.png" alt="" width="132" height="78" />
+                  <h4>Homes for Freinds</h4>
+                  <p>
+                    Rent a beautiful house for your family. Choose from flats in
+                    societies, individual apartments, bungalows & villas
+                  </p>
+                  <button class="btn btn-outline-dark">
+                    EXPLORE 5681 HOUSES
+                  </button>
+                  <p>₹3500 - ₹70000</p>
+                </div>
+                <div class="col-md-4 dec">
+                  <img src="./img/d3.png" alt="" width="132" height="78" />
+                  <h4>Homes just for you</h4>
+                  <p>
+                    Rent a beautiful house for your family. Choose from flats in
+                    societies, individual apartments, bungalows & villas
+                  </p>
+                  <button class="btn btn-outline-dark">
+                    EXPLORE 1546 HOUSES
+                  </button>
+                  <p>₹3500 - ₹70000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Section -->
+    <section class="popular">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 mb-2">
+            <h1>Popular localities in Bangalore</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="./img/int-1.jpg"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Hsr Layout</h5>
+                <p class="card-text">Starting price <span>₹2000</span></p>
+                <p>1813 houses</p>
+                <a href="#">Exlore Homes</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="./img/int-2.jpg"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Koramangala</h5>
+                <p class="card-text">Starting price <span>₹2000</span></p>
+                <p>1351 houses</p>
+                <a href="#">Exlore Homes</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="./img/int-3.jpg"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Marathahalli</h5>
+                <p class="card-text">Starting price <span>₹2000</span></p>
+                <p>1344 houses</p>
+                <a href="#">Exlore Homes</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="./img/int-1.jpg"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Whitefield</h5>
+                <p class="card-text">Starting price <span>₹2125</span></p>
+                <p>18 houses</p>
+                <a href="#">Exlore Homes</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefit Section -->
+    <section>
+      <div class="container benefit">
+        <div class="row">
+          <div class="col-md-3">
+            <h1>Benefits of renting with us</h1>
+          </div>
+          <div class="col-md-7">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./img/b1.png" alt="" srcset="" width="30%" />
+                <h4>Zero Brokerage Options</h4>
+              </div>
+              <div class="col-md-4">
+                <img src="./img/b2.png" alt="" srcset="" width="30%" />
+                <h4>Affordable Rents</h4>
+              </div>
+              <div class="col-md-4">
+                <img src="./img/b3.png" alt="" srcset="" width="30%" />
+                <h4>Instant Deposit Refund</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slider Section -->
+    <section>
+      <div class="slide">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active slide-1">
+              <div class="row">
+                <div class="col-md-6">
+                  <h1>NestAway Startup Lab</h1>
+                  <p>
+                    An incubation initiative to help startups achieve
+                    transformative growth
+                  </p>
+                  <button>KNOW MORE</button>
+                </div>
+                <div class="col-md-6">
+                  <img src="./img/n1.png" alt="" height="170px" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item slide-2">
+              <div class="row">
+                <div class="col-md-6">
+                  <h1>Nestie Community</h1>
+                  <p>
+                    Join the 40,000+ nesties to get exclusive access to events &
+                    meet- ups for sharing & celebrating similar interests
+                  </p>
+                  <button>KNOW MORE</button>
+                </div>
+                <div class="col-md-6">
+                  <img src="./img/n2.png" alt="" height="170px" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item slide-3">
+              <div class="row">
+                <div class="col-md-6">
+                  <h1>Refer and Earn</h1>
+                  <p>
+                    big on rent or make some extra income by referring your
+                    friends & family
+                  </p>
+                  <button>KNOW MORE</button>
+                </div>
+                <div class="col-md-6">
+                  <img src="./img/n3.png" alt="" height="170px" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item slide-4">
+              <div class="row">
+                <div class="col-md-6">
+                  <h1>NestAway Music Lab</h1>
+                  <p>A platform for the talented who live with us</p>
+                  <button>KNOW MORE</button>
+                </div>
+                <div class="col-md-6">
+                  <img src="./img/n4.png" alt="" height="170px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Network Section -->
+    <section>
+      <div class="container network">
+        <div class="row">
+          <div class="col-md-3">
+            <h3>72,400 +</h3>
+            <p>Happy Customers</p>
+          </div>
+          <div class="col-md-3">
+            <h3>30,500 +</h3>
+            <p>Houses across India</p>
+          </div>
+          <div class="col-md-3">
+            <h3>13</h3>
+            <p>Cities in India</p>
+          </div>
+          <div class="col-md-3">
+            <h3>₹38+ Cr</h3>
+            <p>Saving made on brokerage</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comments Section -->
+    <section>
+      <div class="container-fluid comments">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mt-5">
+              <h1>Don’t take our word for it</h1>
+            </div>
+            <div class="col-md-4 social-slide">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="4"
+                    aria-label="Slide 5"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="./img/socialmedia.png"
+                      class="d-block mb-3"
+                      width="62px"
+                      height="55px"
+                    />
+                    <h5>In Social Media</h5>
+                    <p>
+                      I found a good house for rent and the process was smooth.
+                      The staff were courteous and the customer care was helpful
+                      barring one incident. The deposit they ask from tenants is
+                      very reasonable. Owners in Bangalore have the habit of
+                      demanding a deposit of atleast 10 months. With nestaway
+                      it's only two months which was very reasonable. The
+                      service requests also were answered to promptly.
+                    </p>
+                    <h6>Aditya Garemella</h6>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/socialmedia.png"
+                      class="d-block mb-3"
+                      width="62px"
+                      height="55px"
+                    />
+                    <h5>In Social Media</h5>
+                    <p>
+                      It's been 7 months m living in a Nestway property. In the
+                      starting i faced some issues with this as it was new for
+                      me but after knowing the process m happy with the services
+                      nestway provides. I suggest this for other people as well.
+                      Thanks Nestway for hassle free living.
+                    </p>
+                    <h6>Shilpi Gautam</h6>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/socialmedia.png"
+                      class="d-block mb-3"
+                      width="62px"
+                      height="55px"
+                    />
+                    <h5>In Social Media</h5>
+                    <p>
+                      Its been 2 years, I have been staying in Nestaway. What a
+                      venture in the startup ecosystem, no hassles to find a
+                      perfect home, perfect owner and perfect flatmates.
+                      Recommend all to choose Nestaway homes, thay make you feel
+                      your in home with events and activities for all away
+                      from.homes. Last time we celebrated Duwali with all
+                      tenangss in Bangalore and what a reunion it was .Thank you
+                    </p>
+                    <h6>Anupam Kalita</h6>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/socialmedia.png"
+                      class="d-block mb-3"
+                      width="62px"
+                      height="55px"
+                    />
+                    <h5>In Social Media</h5>
+                    <p>
+                      I had never imagined that I could close down on a house in
+                      just a single day. Thanks Nestaway for the amazing
+                      offering!
+                    </p>
+                    <h6>Bhawna Jain</h6>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/socialmedia.png"
+                      class="d-block mb-3"
+                      width="62px"
+                      height="55px"
+                    />
+                    <h5>In Social Media</h5>
+                    <p>
+                      Awesome App. 👍🏼 NestAway actually tries to help it's
+                      nesties in every possible way. My experience so far with
+                      NestAway is very good. I'm totally satisfied with the
+                      services. It's value for money too. Thank You for taking
+                      care. 😊
+                    </p>
+                    <h6>Himanshu Singh</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mt-5">
+              <div class="print">
+                <img src="./img/print.png" alt="" width="114px" height="70px" />
+                <h5>In Print</h5>
+                <img
+                  src="./img/magazine.png"
+                  alt=""
+                  width="250px"
+                  height="149px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Owner Banner Section -->
+    <section>
+      <div class="container-fluid owner-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h2>Are you a home owner?</h2>
+              <button>LIST YOUR PROPERTY</button>
+            </div>
+            <div class="col-md-3 mt-3 cart">
+              <h5>Find verified tenants</h5>
+              <p>
+                From showing your house to tenants, police verifying them &
+                managing paperwork, we do it all
+              </p>
+              <a href="#">Know More</a>
+            </div>
+            <div class="col-md-3 mt-3 cart">
+              <h5>Get your rent on time</h5>
+              <p>
+                We assure rent on 5th of every month. No more late rent payments
+                or rent collection hassle
+              </p>
+              <a href="#">Know More</a>
+            </div>
+            <div class="col-md-3 mt-3 cart">
+              <h5>Get house maintenance</h5>
+              <p>
+                We provide periodic & on-demand repairs and cleaning of the
+                house to keep it in good condition
+              </p>
+              <a href="#">Know More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section>
+      <div class="container download">
+        <div class="row">
+          <div class="col-md-5">
+            <h1>Find homes on the move</h1>
+          </div>
+          <div class="col-md-6">
+            <h5>Download the app</h5>
+            <div class="d-flex">
+              <div class="card">
+                <img src="./img/googleplay.png" alt="" width="100%" />
+              </div>
+              <div class="card">
+                <img src="./img/appstore.png" alt="" width="100%" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 footer-text">
+            <img src="./img/icon.svg" alt="" />
+            <p>
+              NestAway is India's fastest growing "<span
+                >Managed Home Rental Network</span
+              >" attempting to provide better rental solutions via design &
+              technology.
+            </p>
+            <p>
+              We help find, book rental homes of choice across Indian cities. We
+              assist with move-in, provide home maintenance services from
+              cleaning, damages to rent payment & even move-out.
+            </p>
+            <p>
+              Whatever be your budget, whatever you may call a home (a bed, a
+              room or an entire house), we have something for you!
+            </p>
+            <span>
+              <p>
+                Bangalore | Gurgaon | Hyderabad | Noida | Pune | Delhi |
+                Ghaziabad | Greater Noida | Faridabad | Navi Mumbai | Thane |
+                Mumbai | Chennai | Mysore | Kota | Dehradun | Bhubaneswar |
+                Kolkata | Visakhapatnam | Coimbatore | Chandigarh | Indore |
+                Kochi | Ahmedabad | Jaipur | Agra | Mangalore | Vijaywada |
+                Bhopal | Lucknow | Patna | Ludhiana
+              </p>
+            </span>
+          </div>
+          <div class="col-md-2 footer-col">
+            <p>NestAway</p>
+            <a href="#">About us</a><br />
+            <a href="#">Behind our new look</a><br />
+            <a href="#">Our Brand Book</a><br />
+            <a href="#">Careers</a><br />
+            <a href="#">Trends & info</a><br />
+            <a href="#">Blog</a><br />
+            <a href="#">Contact us</a>
+          </div>
+          <div class="col-md-2 footer-col">
+            <p>For owners & tenants</p>
+            <a href="#">List your property</a><br />
+            <a href="#">Rent predictor</a><br />
+            <a href="#">Refer an owner</a><br />
+            <a href="#">Refer a tenet</a><br />
+            <a href="#">Online Rent Agreement Generator</a><br />
+            <a href="#">Coupon codes</a><br />
+            <a href="#">Top society</a>
+          </div>
+          <div class="col-md-2 footer-col">
+            <p>More information</p>
+            <a href="#">Help center</a><br />
+            <a href="#">Privacy policy</a><br />
+            <a href="#">Terms of use</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="footer-link d-flex">
+      <p>© 2021 Shadab's Project. All rights reserved.</p>
+      <button>USEFUL LINKS</button>
+    </div>
+
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/67e9255fbd.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Link Javascript -->
+    <script src="./app.js"></script>
+  </body>
+</html>
